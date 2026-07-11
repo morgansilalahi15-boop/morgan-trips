@@ -22,7 +22,15 @@ justify-content:space-between;
 align-items:center;
 
 padding:20px 80px;
-
+nav ul{
+    display:flex;
+    gap:40px;
+    list-style:none;
+}
+    nav a{
+    text-decoration:none;
+    color:white;
+}
 }
 .logo{
 
