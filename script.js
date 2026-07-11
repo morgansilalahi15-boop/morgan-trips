@@ -1,1 +1,1 @@
-console.log("Welcome to Morgan Trips");
+console.log("Morgan Trips Loaded");
