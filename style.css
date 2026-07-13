@@ -413,12 +413,89 @@ line-height:1.8;
 font-size:17px;
 
 }
+
+/* ===========================
+   STATS
+=========================== */
+
+.stats{
+
+    background:#0F172A;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+    text-align:center;
+
+}
+
+.stat{
+
+    background:rgba(255,255,255,.05);
+
+    padding:40px 20px;
+
+    border-radius:20px;
+
+    backdrop-filter:blur(8px);
+
+    transition:.35s;
+
+}
+
+.stat:hover{
+
+    transform:translateY(-10px);
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.stat h3{
+
+    font-size:52px;
+
+    margin-bottom:15px;
+
+}
+
+.stat p{
+
+    font-size:20px;
+
+    font-weight:600;
+
+    color:white;
+
+}
+
 /* ===========================
    RESPONSIVE
 =========================== */
 
 @media(max-width:900px){
 
+    ...
+
+    .buttons a{
+
+        width:260px;
+        cursor:pointer;
+
+    }
+
+    .stats{
+
+        grid-template-columns:1fr 1fr;
+
+    }
+
+}
+
+   
     nav{
 
         flex-direction:column;
