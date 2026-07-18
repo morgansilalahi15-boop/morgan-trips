@@ -563,6 +563,30 @@ justify-content:space-between;
 gap:80px;
 
 }
+
+.ebook-text{
+
+flex:1;
+
+}
+
+.ebook-image{
+
+flex:1;
+
+text-align:center;
+
+}
+
+.ebook-image img{
+
+width:100%;
+
+max-width:420px;
+
+}
+}
+
 /* ===========================
    STATS
 =========================== */
