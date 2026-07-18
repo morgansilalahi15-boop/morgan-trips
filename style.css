@@ -25,7 +25,7 @@ body{
 }
 
 section{
-    padding:120px 8%;
+    padding:100px 8%;
 }
 
 /* ===========================
@@ -585,7 +585,171 @@ width:100%;
 max-width:420px;
 
 }
+
+.ebook-image img:hover{
+
+transform:translateY(-8px);
+
 }
+
+.ebook-tag{
+
+display:inline-block;
+
+background:#36D399;
+
+color:white;
+
+padding:8px 18px;
+
+border-radius:50px;
+
+font-size:14px;
+
+font-weight:700;
+
+margin-bottom:25px;
+
+}
+
+.ebook h2{
+
+font-size:52px;
+
+line-height:1.15;
+   
+font-family:'Poppins',sans-serif;
+
+margin-bottom:20px;
+
+}
+
+.ebook-text p{
+
+font-size:20px;
+
+line-height:1.8;
+
+color:#64748B;
+
+margin-bottom:30px;
+
+}
+
+.ebook ul{
+
+list-style:none;
+
+margin-bottom:35px;
+
+}
+
+.ebook ul li{
+
+font-size:18px;
+
+margin-bottom:14px;
+
+font-weight:500;
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+   
+}
+
+.ebook-rating{
+
+font-size:22px;
+
+color:#F4B400;
+
+margin-bottom:15px;
+
+}
+
+.ebook-rating span{
+
+display:block;
+
+font-size:16px;
+
+color:#64748B;
+
+margin-top:15px;
+
+}
+
+.ebook-price{
+
+font-size:18px;
+
+margin-bottom:30px;
+
+color:#475569;
+
+}
+
+.ebook-price strong{
+
+font-size:42px;
+
+color:#0F172A;
+
+margin:0 6px;
+
+}
+
+.buy-btn{
+
+display:inline-block;
+
+box-shadow:0 15px 35px rgba(54,211,153,.35);
+
+padding:18px 40px;
+
+background:#36D399;
+
+color:white;
+
+text-decoration:none;
+
+font-weight:700;
+
+border-radius:50px;
+
+transition:.3s;
+
+margin-bottom:30px;
+
+}
+
+.buy-btn:hover{
+
+background:#2DBF84;
+
+transform:translateY(-4px);
+
+box-shadow:0 20px 40px rgba(54,211,153,.45);
+
+}
+.ebook-note{
+
+display:flex;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+color:#64748B;
+
+font-size:15px;
+
+}
+
+
 
 /* ===========================
    STATS
@@ -650,6 +814,40 @@ max-width:420px;
 =========================== */
 
 @media(max-width:900px){
+
+.ebook{
+
+flex-direction:column-reverse;
+
+text-align:center;
+
+gap:50px;
+
+}
+
+.ebook-image img{
+
+max-width:300px;
+
+}
+text-align:center;
+
+gap:50px;
+
+}
+
+.ebook-image img{
+
+max-width:300px;
+
+}
+
+.ebook-note{
+
+justify-content:center;
+
+}
+
 
     nav{
 
