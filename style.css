@@ -594,30 +594,10 @@ font-size:17px;
 
 @media(max-width:900px){
 
-    ...
-
-    .buttons a{
-
-        width:260px;
-        cursor:pointer;
-
-    }
-
-    .stats{
-
-        grid-template-columns:1fr 1fr;
-
-    }
-
-}
-
-   
     nav{
 
         flex-direction:column;
-
         gap:20px;
-
         padding:20px;
 
     }
@@ -625,18 +605,16 @@ font-size:17px;
     nav ul{
 
         flex-wrap:wrap;
-
         justify-content:center;
-
         gap:20px;
 
     }
 
-   .logo{
+    .logo{
 
-width:85px;
-transition:.35s ease;
-}
+        width:85px;
+
+    }
 
     .overlay h1{
 
@@ -653,7 +631,6 @@ transition:.35s ease;
     .buttons{
 
         flex-direction:column;
-
         align-items:center;
 
     }
@@ -661,7 +638,12 @@ transition:.35s ease;
     .buttons a{
 
         width:260px;
-       cursor:pointer;
+
+    }
+
+    .stats{
+
+        grid-template-columns:1fr 1fr;
 
     }
 
