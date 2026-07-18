@@ -199,6 +199,33 @@ transform:translateY(0);
 }
 
 }
+
+.badge{
+
+display:inline-block;
+
+padding:10px 24px;
+
+margin-bottom:30px;
+
+background:rgba(255,255,255,.15);
+
+border:1px solid rgba(255,255,255,.25);
+
+backdrop-filter:blur(12px);
+
+border-radius:50px;
+
+font-size:15px;
+
+font-weight:600;
+
+color:white;
+
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+
+}
+
 .overlay{
 
 max-width:850px;
