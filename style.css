@@ -813,41 +813,27 @@ font-size:15px;
    RESPONSIVE
 =========================== */
 
-@media(max-width:900px){
+@media (max-width:900px){
 
-.ebook{
+    .ebook{
 
-flex-direction:column-reverse;
+        flex-direction:column-reverse;
+        text-align:center;
+        gap:50px;
 
-text-align:center;
+    }
 
-gap:50px;
+    .ebook-image img{
 
-}
+        max-width:300px;
 
-.ebook-image img{
+    }
 
-max-width:300px;
+    .ebook-note{
 
-}
-text-align:center;
+        justify-content:center;
 
-gap:50px;
-
-}
-
-.ebook-image img{
-
-max-width:300px;
-
-}
-
-.ebook-note{
-
-justify-content:center;
-
-}
-
+    }
 
     nav{
 
@@ -901,11 +887,11 @@ justify-content:center;
         grid-template-columns:1fr 1fr;
 
     }
-.destination-grid{
 
-grid-template-columns:1fr;
+    .destination-grid{
+
+        grid-template-columns:1fr;
+
+    }
 
 }
-   
-}
-
